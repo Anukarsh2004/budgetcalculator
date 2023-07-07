@@ -1,0 +1,117 @@
+.budget-calculator {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding: 20px;
+    background-color: #e0fdf1;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 55px;
+  }
+  
+  .budget-calculator h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+  }
+  
+  .expense-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .expense-inputs div {
+    margin-bottom: 10px;
+  }
+  
+  .expense-inputs label {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .expense-inputs input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .expense-inputs .quantity-input {
+    width: 80px;
+  }
+  
+  .expense-inputs button {
+    padding: 10px 16px;
+    background-color: #3700ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .expense-list h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  
+  .expense-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-list .labels {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .expense-list .labels span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .expense-list li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items:center;
+    gap: 60px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expense-info span {
+    color: #000000;
+  }
+  
+  .expense-quantity input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .total-expenditure {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+  }
+  
